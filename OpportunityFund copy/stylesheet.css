@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+h1 {
+	color: blue;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+p { 
+  max-width: 300px;
+}
+
+body {
+	background: url("http://cdn.superbwallpapers.com/wallpapers/meme/doge-27437-1280x800.jpg");
+  background-size: cover;
+  background-position: cover;
+  background-color: rgb(225, 218, 186);
+ }
+
+  #me {
+  	width: 200px;
+    padding: 10px;
+  }
+
+  #doge {
+  	opacity: 0.5;
+  	position: absolute;
+  	top: 90;
+  	left: 90;
+  	z-index: 0;
+  	width: 100%;
+  	height: cover;
+
+
+  }
+
+  #user-profile {
+  	position: absolute;
+    margin: 0 auto;
+    padding: 0px 0px 0px 50px;
+
+
+  }
